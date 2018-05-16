@@ -6,7 +6,7 @@ Ajouter autant de Discord que vous le souhaitez sur une seul page, et inviter vo
 ## Installation | FTP
 1. Cliquez sur "Clone or download" sur la page "https://github.com/MineWeb/Plugin-Discord".
 2. Téléchargez et enregistrez le ZIP, puis extrayez le.
-3. Renommez le fichier "Plugin-Discord-master" par "SDiscord".
+3. Renommez le fichier "Plugin-Discord-master" par "Discord".
 4. Déplacez le fichier dans votre FTP à l'adresse "/app/Plugin".
 5. Supprimez tous les fichiers dans le "/app/tmp/cache" de votre FTP.
 6. Installation effectuée.
