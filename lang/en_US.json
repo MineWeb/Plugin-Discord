@@ -1,0 +1,14 @@
+{
+  "INDEX_TITRE": "Our server discord, those of our partners! Join them for more fun!",
+  
+  "DISCORD__ADD": "Add a Discord Server !",
+  "DISCORD__API": "List of your active Discord on the site!",
+  
+  "GLOBAL__DISCORD__SUCCESS": "Discord added with succes !",
+  "GLOBAL__DISCORD__SUBMIT": "Install !",
+  "GLOBAL__DISCORD__DELETE":"Delete..!",
+  
+  "CREDIT_AUTHOR":"Plugin made by <a href=\"http://byfow.fr/\" target=\"_blank\">https://byfow.fr/</a> ! © 2018",
+
+  "WIDGET_DEBUT": "https://discordapp.com/widget?id="
+}
