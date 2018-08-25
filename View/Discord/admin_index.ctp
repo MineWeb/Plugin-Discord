@@ -15,13 +15,13 @@
                 <div class="box-body">
                     <div class="row">
                         <div class="col-md-12">
-                            <form action="" method="post" data-ajax="true">
+                            <form data-ajax="true" action="<?= $this->Html->url(array('controller' => 'Discord', 'action' => 'add_ajax')) ?>" method="post" data-redirect-url="<?= $this->Html->url(array('action' => 'index')) ?>" data-success-msg="false">
 
 								<div class="form-group">
-                                    <label>Insérer votre Identifiant de Serveur (ID) ! (Kékecé ?? Voici un petit tuturiel disponible <a href="http://demo.byfow.fr/p/docs-discord" target=\"_blank\">ici</a>!)</label>
+                                    <label><?= $Lang->get('DISCORD__ADMIN_LABEL'); ?></label>
                                     <div class="input-group">
-                                    <span class="input-group-addon">Ajoute ton ID :</span>
-                                    <input type="text" class="form-control" name="api" value="<?= $data['api'] ?>" placeholder="">
+                                    <span class="input-group-addon"><?= $Lang->get('DISCORD__ADMIN_SUBTITLE'); ?></span>
+                                    <input type="text" class="form-control" name="api" placeholder="">
                                 </div><br></br>
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-primary center-block"><?= $Lang->get('GLOBAL__DISCORD__SUBMIT'); ?></button>
@@ -33,21 +33,24 @@
                 </div>
             </div>
             <div class="box">
+				<div class="box-header with-border">
+					<h3 class="box-title"><?= $Lang->get('DISCORD__API') ?></h3>
+				</div>
                 <div class="box-body">
                     <div class="row">
                         <div class="col-md-12">
                             <table class="table table-responsive dataTable">
                                 <thead>
                                 <tr>
-                                    <th><?= $Lang->get('DISCORD__API') ?></th>
-                                    <th></th>
+                                    <th>Api id</th>
+									<th>Action</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                     <?php foreach ($datas as $data): ?>
                                         <tr>
-                                            <td><?= $data['Info']['api']; ?></td>
-                                            <td><a onclick="confirmDel('/admin/discord/discord/delete/<?= $data['Info']['id']; ?>')" class="btn btn-danger"><?= $Lang->get('GLOBAL__DISCORD__DELETE') ?></a></td>
+                                            <td><?= $data['Discord']['api_discord']; ?></td>
+                                            <td><a onclick="confirmDel('/admin/discord/discord/delete/<?= $data['Discord']['id']; ?>')" class="btn btn-danger"><?= $Lang->get('GLOBAL__DELETE') ?></a></td>
                                         </tr>
                                     <?php endforeach; ?>
                                 </tbody>
