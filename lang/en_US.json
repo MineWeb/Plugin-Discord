@@ -6,7 +6,9 @@
   
   "GLOBAL__DISCORD__SUCCESS": "Discord added with succes !",
   "GLOBAL__DISCORD__SUBMIT": "Install !",
-  "GLOBAL__DISCORD__DELETE":"Delete..!",
+  
+  "DISCORD__ADMIN_LABEL": "Insert your Server ID (ID) !",
+  "DISCORD__ADMIN_SUBTITLE": "Add your ID :",
   
   "CREDIT_AUTHOR":"Plugin made by <a href=\"http://byfow.fr/\" target=\"_blank\">https://byfow.fr/</a> ! © 2018",
 
