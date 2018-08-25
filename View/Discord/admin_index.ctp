@@ -10,7 +10,7 @@
         <div class="col-md-12">
             <div class="box">
                 <div class="box-header with-border">
-					<h3 class="box-title"><?= $Lang->get("DISCORD__ADD"); ?></h3> <span style="float:right;"><?= $Lang->get("CREDIT_AUTHOR"); ?></span>
+					<h3 class="box-title"><?= $Lang->get("DISCORD__ADD"); ?></h3> <span style="float:right;"><?= $Lang->get("CREDIT_AUTHOR"); ?></span><br><h6>Un tutoriel est disponible sur le GitHub de MineWeb ! <a href="https://github.com/MineWeb/Plugin-Discord/wiki/Installation---Configuration">(Wiki)</a></h6>
                 </div>
                 <div class="box-body">
                     <div class="row">
@@ -42,7 +42,7 @@
                             <table class="table table-responsive dataTable">
                                 <thead>
                                 <tr>
-                                    <th>Api id</th>
+                                    <th>Widget ID</th>
 									<th>Action</th>
                                 </tr>
                                 </thead>
