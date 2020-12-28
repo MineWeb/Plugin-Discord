@@ -1,27 +1,27 @@
 {
-  "name":"Discord",
-  "admin_menus": {
-    "GLOBAL__ADMIN_PLUGINS": {
-      "Discord": {
-        "icon": "microphone",
-        "route": "/admin/discord"
-      }
+    "name": "Discord",
+    "author": "ByFow",
+    "version": "1.3.7",
+    "admin_menus": {
+        "GLOBAL__ADMIN_PLUGINS": {
+            "Discord": {
+                "icon": "microphone",
+                "route": "/admin/discord"
+            }
+        }
+    },
+    "navbar_routes": {
+        "Discord": "/discord"
+    },
+    "useEvents": false,
+    "permissions": {
+        "available": [],
+        "default": {
+            "0": [],
+            "2": []
+        }
+    },
+    "requirements": {
+        "CMS": "^1.11.0"
     }
-  },
-  "navbar_routes": {
-    "Discord": "/discord"
-  },
-  "author":"ByFow",
-  "version":"1.3.6",
-  "useEvents":false,
-  "permissions" : {
-    "available" : [],
-    "default" : {
-      "0" : [],
-      "2" : []
-    }
-  },
-  "requirements" : {
-    "CMS" : "^1.5.8"
-  }
 }
